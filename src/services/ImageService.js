@@ -9,6 +9,7 @@ type ListParams = {
   offset?: number,
   limit?: number,
   search?: string,
+  searchImage?: any,
 };
 
 class ImageService {
