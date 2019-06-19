@@ -1,0 +1,15 @@
+.SketchList{
+    background-color: white;
+    align-content: center;
+    display:flex;
+    flex-direction: column;
+
+    &__Image{
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        margin: 10px;
+        width: 400px;
+        height: 400px;
+    }
+}
